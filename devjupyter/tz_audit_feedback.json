@@ -1,0 +1,23 @@
+{
+  "run_id": "00f97403-5500-4e52-9282-dd6a20dd9dff",
+  "reviewer_id": "expert_demo",
+  "reviews": [
+    {
+      "finding_quote": "а) согласие, предусмотренное пунктом 1 настоящей части, в том числе означающее согласие на использование товара, указани",
+      "category": "brand",
+      "rule_id": "RULE_BRAND_001",
+      "ai_verdict": "risk",
+      "decision": "confirm",
+      "comment": ""
+    },
+    {
+      "finding_quote": "Расположение В 1.5 метрахотTPS spectra 3000 Core System",
+      "category": "participants",
+      "rule_id": "RULE_BRAND_001",
+      "ai_verdict": "risk",
+      "decision": "confirm",
+      "comment": ""
+    }
+  ],
+  "gate_after_review": "REVIEW"
+}

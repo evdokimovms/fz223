@@ -1,0 +1,29 @@
+
+
+version: "1.0"
+
+verdict_weight:
+  violation: 1.0
+  risk: 0.65
+  check: 0.25
+
+severity_weight:
+  high: 25
+  medium: 12
+  low: 5
+
+# Дополнительные множители сигналов
+signal_bonus:
+  analogs_banned: 15
+  false_equivalent: 12
+  territorial_experience: 10
+  manufacturer_cert: 8
+  history_deviation: 10   # отклонение от исторической практики
+
+thresholds:
+  green_max: 29     
+  yellow_max: 69    
+  red_min: 70        
+
+# Минимальный confidence для попадания в score
+min_confidence: 0.55
